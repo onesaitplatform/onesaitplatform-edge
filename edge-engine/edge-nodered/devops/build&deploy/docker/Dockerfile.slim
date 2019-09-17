@@ -1,0 +1,21 @@
+FROM nodered/node-red-docker:slim
+MAINTAINER onesait things edge <fgminambre@minsait.com>
+
+USER root
+
+# Change time zone 
+# Default container timezone as found under the directory /usr/share/zoneinfo/.
+ENV  TIMEZONE    Europe/Madrid
+
+COPY data/tz.sh /usr/src/node-red/tz.sh
+RUN  chmod +x /usr/src/node-red/tz.sh
+
+RUN  apk add --no-cache  tzdata openntpd  && \
+     /usr/src/node-red/tz.sh  && \ 
+     rm -rf /var/cache/apk/*
+
+RUN npm install sha1 cron mqtt 
+
+# Environment variable holding file path for flows configuration
+ENV FLOWS=/home/node/flows_indra.json
+CMD ["npm", "start","--", "--userDir", "$PWD"]

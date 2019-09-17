@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="19px" viewBox="0 0 20 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>ico_terminal copy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="07.-Extras" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ico_terminal-copy" fill="#2E6C99">
+            <g id="noun_console_1154330">
+                <g id="Group">
+                    <path d="M19.4444444,0.139705882 L0.555555556,0.139705882 C0.25,0.139705882 0,0.391176471 0,0.698529412 L0,18.3014706 C0,18.6088235 0.25,18.8602941 0.555555556,18.8602941 L19.4444444,18.8602941 C19.75,18.8602941 20,18.6088235 20,18.3014706 L20,0.698529412 C20,0.391176471 19.75,0.139705882 19.4444444,0.139705882 Z M18.8888889,1.25735294 L18.8888889,4.69411765 L1.11111111,4.69411765 L1.11111111,1.25735294 L18.8888889,1.25735294 Z M1.11111111,17.7426471 L1.11111111,5.81176471 L18.8888889,5.81176471 L18.8888889,17.7426471 L1.11111111,17.7426471 Z" id="Shape" fill-rule="nonzero"></path>
+                    <polygon id="Path" points="4.19444444 8.52205882 6.91666667 11.5117647 4.19444444 14.5014706 5.02777778 15.2558824 8.44444444 11.5117647 5.02777778 7.76764706"></polygon>
+                    <rect id="Rectangle" x="8.80555556" y="14.25" width="6.75" height="1.11764706"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

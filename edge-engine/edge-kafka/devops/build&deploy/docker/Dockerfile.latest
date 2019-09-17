@@ -1,0 +1,25 @@
+FROM wlabindra/edge-jre8
+
+#Maintainer
+MAINTAINER watergylabindra <jartall@indra.es>
+
+#Environment variables
+
+# Default container timezone as found under the directory /usr/share/zoneinfo/.
+
+#volumes
+RUN mkdir -p /opt/kafka
+
+#Work directory
+WORKDIR /opt/kafka
+
+#Launchers
+COPY ["kafka.sh", "/etc/init.d/"]
+RUN  chmod +x /etc/init.d/kafka.sh
+
+#Modbus project files
+ADD ["kafka-1.1.0.jar","/opt/kafka/"]
+
+USER root
+
+CMD ["/bin/bash", "/etc/init.d/kafka.sh"]

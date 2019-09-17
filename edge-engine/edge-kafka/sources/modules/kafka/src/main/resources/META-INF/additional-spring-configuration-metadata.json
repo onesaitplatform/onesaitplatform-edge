@@ -1,0 +1,52 @@
+{"properties": [
+  {
+    "name": "kafka.url",
+    "type": "java.lang.String",
+    "description": "A description for 'kafka.url'"
+  },
+  {
+    "name": "kafka.token",
+    "type": "java.lang.String",
+    "description": "A description for 'kafka.token'"
+  },
+  {
+    "name": "kafka.prefix",
+    "type": "java.lang.String",
+    "description": "A description for 'kafka.prefix'"
+  },
+  {
+    "name": "kafka.ontology",
+    "type": "java.lang.String",
+    "description": "A description for 'kafka.ontology'"
+  },
+  {
+    "name": "kafka.clientPlatform",
+    "type": "java.lang.String",
+    "description": "A description for 'kafka.clientPlatform'"
+  },
+  {
+    "name": "kafka.sasl.jaas.config",
+    "type": "java.lang.String",
+    "description": "A description for 'kafka.sasl.jaas.config'"
+  },
+  {
+    "name": "mqtt.topic",
+    "type": "java.lang.String",
+    "description": "A description for 'mqtt.topic'"
+  },
+  {
+    "name": "mqtt.port",
+    "type": "java.lang.String",
+    "description": "A description for 'mqtt.port'"
+  },
+  {
+    "name": "mqtt.ip",
+    "type": "java.lang.String",
+    "description": "A description for 'mqtt.ip'"
+  },
+  {
+    "name": "kafka.port",
+    "type": "java.lang.String",
+    "description": "A description for 'kafka.port'"
+  }
+]}

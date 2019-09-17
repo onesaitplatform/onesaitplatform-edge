@@ -1,0 +1,40 @@
+version: '2'
+
+services:
+
+  mqtt:
+    restart: always
+    image: ${DOCKER_REGISTRY}/onesait-things/edge-mqtt:latest
+    container_name: edge.mqtt
+    volumes:
+      - /home/indra/docker/logs:/mosquitto/log
+      - /home/indra/docker/data:/mosquitto/data
+    ports:
+      - 1883:1883
+    networks:
+      - edgenet
+
+  database:
+    restart: always
+    image: ${DOCKER_REGISTRY}/onesait-things/edge-database:slim
+    container_name: edge.database
+    environment:
+      CONTAINER_TIMEZONE: Europe/Madrid
+      INFLUXDB_SHARD_PRECREATION_ENABLED: 1
+      MQTT_HOST: mqtt
+      MQTT_PORT: 1883
+      MQTT_TOPIC: topic/stgdc
+    volumes:
+      - /home/indra/docker/data/influxdb:/var/lib/influxdb:rw
+    depends_on:
+      - mqtt
+    links:
+      - mqtt
+    ports:
+      - 5300:5300          
+    networks:
+      - edgenet
+
+networks:
+  edgenet:
+    driver:  bridge

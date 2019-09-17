@@ -1,0 +1,23 @@
+FROM alpine
+
+RUN echo 'hosts: files dns' >> /etc/nsswitch.conf
+RUN apk add --no-cache bash
+
+COPY telegraf /usr/bin/telegraf
+RUN chmod +x /usr/bin/telegraf
+COPY influxd /usr/bin/influxd
+RUN chmod +x /usr/bin/influxd
+COPY telegraf.conf /etc/telegraf/telegraf.conf
+COPY influxdb.conf /etc/influxdb/influxdb.conf
+
+COPY telegraf.sh /telegraf.sh
+RUN chmod +x /telegraf.sh
+COPY forego /bin/forego
+RUN chmod +x /bin/forego
+COPY Procfile.slim /Procfile
+COPY entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
+EXPOSE 8086/tcp 
+
+ENTRYPOINT ["/entrypoint.sh"]
+CMD ["forego", "start", "-r"]
