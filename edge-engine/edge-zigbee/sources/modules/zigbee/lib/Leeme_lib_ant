@@ -1,3 +1,0 @@
-Añadir libreria jsch-0.1.54.jar a las librerias de ANT (Se utiliza para las conexiones sftp)
-
-Windows > Preferences > Ant > Runtime > Global Entries > Add Jars...

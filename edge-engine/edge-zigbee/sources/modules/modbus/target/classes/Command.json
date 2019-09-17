@@ -1,8 +1,0 @@
-{
-    "convFactor": 1,
-    "registerType": "HR",
-    "register": 2077,
-    "dataType": "UINT16",
-    "bigEndian": false,
-    "commandValue": 1534
-}
