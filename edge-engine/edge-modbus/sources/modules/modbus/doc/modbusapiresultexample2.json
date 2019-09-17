@@ -1,0 +1,110 @@
+{
+    "process":"modbus",
+    "update": "2017-12-20T08:37:37.435Z",
+    "devices": [
+        {
+            "protocol": "TCP",
+            "id": "SACI_UP",
+            "ip": "192.168.0.2",
+            "port": 502,
+            "address": 1,
+            "manufacturer": "SACI",
+            "model": "AHM1",
+            "monitoringBlocks": 100,
+            "monitoringTimeSec": 11,
+            "monitoringDelaySec": 1,
+            "monitoringTimeoutSec": 1,
+            "info": "040102006",
+            "signals": [
+                {
+                    "id": "PHASE_1_VOLTAGE_U",
+                    "businessId": "PHASE_1_VOLTAGE_U",
+                    "signalType": "PHASEVOLTAGE",
+                    "unit": "V",
+                    "convFactor": 1,
+                    "description": "1.63.1.1.4.12.4.P1",
+                    "registerType": "HR",
+                    "register": 6,
+                    "dataType": "FLOAT32",
+                    "bigEndian": false
+                },
+                {
+                    "id": "PHASE_2_VOLTAGE_U",
+                    "businessId": "PHASE_2_VOLTAGE_U",
+                    "signalType": "PHASEVOLTAGE",
+                    "unit": "V",
+                    "convFactor": 1,
+                    "description": "1.63.1.1.4.12.4.P2",
+                    "registerType": "HR",
+                    "register": 8,
+                    "dataType": "FLOAT32",
+                    "bigEndian": false
+                }
+            ]
+        },
+        {
+            "protocol": "TCP",
+            "id": "SACI_LEFT",
+            "ip": "192.168.0.3",
+            "port": 502,
+            "address": 1,
+            "manufacturer": "SACI",
+            "model": "AHM1",
+            "monitoringBlocks": 100,
+            "monitoringTimeSec": 11,
+            "monitoringDelaySec": 1,
+            "monitoringTimeoutSec": 1,
+            "info": "040383273",
+            "signals": [
+                {
+                    "id": "PHASE_1_VOLTAGE_L",
+                    "businessId": "PHASE_1_VOLTAGE_L",
+                    "signalType": "PHASEVOLTAGE",
+                    "unit": "V",
+                    "convFactor": 1,
+                    "description": "1.63.1.1.4.12.4.P1",
+                    "registerType": "HR",
+                    "register": 6,
+                    "dataType": "FLOAT32",
+                    "bigEndian": false
+                },
+                {
+                    "id": "PHASE_2_VOLTAGE_L",
+                    "businessId": "PHASE_2_VOLTAGE_L",
+                    "signalType": "PHASEVOLTAGE",
+                    "unit": "V",
+                    "convFactor": 1,
+                    "description": "1.63.1.1.4.12.4.P2",
+                    "registerType": "HR",
+                    "register": 8,
+                    "dataType": "FLOAT32",
+                    "bigEndian": false
+                },
+                {
+                    "id": "EXPORT_ACTIVEENERGY_L",
+                    "businessId": "EXPORT_ACTIVEENERGY_L",
+                    "signalType": "ACTIVEEXPORTEDENERGY",
+                    "unit": "kVArh",
+                    "convFactor": 1,
+                    "description": "0.63.1.1.11.34.4",
+                    "registerType": "HR",
+                    "register": 120,
+                    "dataType": "FLOAT32",
+                    "bigEndian": false
+                },
+                {
+                    "id": "REACTIVE_ENERGY_Q1_L",
+                    "businessId": "REACTIVE_ENERGY_Q1_L",
+                    "signalType": "REACTIVEENERGYQ1",
+                    "unit": "kVArh",
+                    "convFactor": 1,
+                    "description": "0.63.1.1.14.35.4",
+                    "registerType": "HR",
+                    "register": 122,
+                    "dataType": "FLOAT32",
+                    "bigEndian": false
+                }
+            ]
+        }
+    ]
+}

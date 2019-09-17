@@ -1,0 +1,43 @@
+version: '2'
+
+services:
+
+  mqtt:
+    restart: always
+    image: onesaitplatform/edge-mqtt:community
+    container_name: edge.mqtt
+    volumes:
+      - /home/indra/docker/logs:/mosquitto/log
+      - /home/indra/docker/data:/mosquitto/data
+    networks:
+      - edgenet
+
+  kafka:
+    restart: always
+    image: onesaitplatform/edge-kafka:community
+    container_name: edge.kafka
+    environment:
+      CONTAINER_TIMEZONE: Europe/Madrid
+      KAFKA_URL: onesaitplatform.online
+      KAFKA_PORT: 9095
+      KAFKA_TOKEN: f846e4089d7f4f1fb635b5da5e3ec898
+      KAFKA_CLIENT_PLATFORM: KafkaInserts
+      KAFKA_PREFIX: ONTOLOGY_
+      KAFKA_ONTOLOGY: EdgeModbus
+      KAFKA_RESEND_MESSAGES: 100
+      KAFKA_RESEND_PERSISTENCE_H: 24
+      KAFKA_RESEND_SEC: 10
+      MQTT_TOPIC: /node1/kafka
+    volumes:
+      - /mnt/logs
+      - /mnt/data
+    depends_on:
+      - mqtt
+    links:
+      - mqtt
+    networks:
+      - edgenet
+
+networks:
+  edgenet:
+    driver:  bridge

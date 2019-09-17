@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="98"
+   height="93"
+   viewBox="0 0 98 93"
+   version="1.1"
+   id="svg14"
+   sodipodi:docname="energy-clamp.svg"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
+  <metadata
+     id="metadata20">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>new_energy_clamp</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs18" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1280"
+     inkscape:window-height="962"
+     id="namedview16"
+     showgrid="false"
+     inkscape:zoom="2.6222222"
+     inkscape:cx="45"
+     inkscape:cy="45"
+     inkscape:window-x="1358"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg14" />
+  <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title2">new_energy_clamp</title>
+  <desc
+     id="desc4">Created with Sketch.</desc>
+  <g
+     id="new_energy_clamp"
+     style="fill:none;fill-rule:evenodd;stroke:none;stroke-width:1"
+     transform="matrix(1.0956973,0,0,1.0956973,-0.12282163,-3.3569156)">
+    <g
+       id="noun_Energy_1709674"
+       transform="translate(3,4)">
+      <g
+         id="Group">
+        <path
+           d="m 0.29166667,71.685345 v 9.202586 c 0,0.999461 0.78328443,1.810345 1.75000003,1.810345 H 81.958333 c 0.966716,0 1.75,-0.810884 1.75,-1.810345 v -9.202586 c 0,-0.999461 -0.783284,-1.810345 -1.75,-1.810345 H 76.341471 V 11.163793 c 0,-1.00005 -0.783284,-1.8103447 -1.75,-1.8103447 H 64.639486 V 2.112069 c 0,-1.0000506 -0.783285,-1.81034486 -1.75,-1.81034486 h -9.1875 c -0.966716,0 -1.75,0.81029426 -1.75,1.81034486 V 9.3534483 H 32.048014 V 2.112069 c 0,-1.0000506 -0.783284,-1.81034486 -1.75,-1.81034486 h -9.1875 c -0.966715,0 -1.75,0.81029426 -1.75,1.81034486 V 9.3534483 H 9.4085287 c -0.9667155,0 -1.75,0.8102947 -1.75,1.8103447 V 69.875 h -5.616862 c -0.9667156,0 -1.75000003,0.810884 -1.75000003,1.810345 z M 53.520951,1.9224138 h 9.549569 v 7.4310345 h -9.549569 z m -32.591471,0 h 9.549569 V 9.3534483 H 20.92948 Z M 9.2274941,10.974138 H 19.80259 29.565334 54.434666 64.19741 74.772506 V 69.875 H 9.2274941 Z M 1.8606322,71.49569 h 5.900736 68.4772638 5.900736 v 9.581896 H 1.8606322 Z"
+           id="Shape"
+           inkscape:connector-curvature="0"
+           style="fill:#a5c0d3;fill-rule:nonzero;stroke:#a5c0d3" />
+        <g
+           id="noun_flash_844808"
+           transform="translate(32.827586,24)" />
+      </g>
+    </g>
+    <g
+       id="noun_Electricity_1318702"
+       transform="translate(37,29)"
+       style="fill:#b1c8d9;fill-rule:nonzero;stroke:#a5c0d3">
+      <path
+         d="m 16.129762,17.465854 c 0.08095,-0.08049 0.121428,-0.20122 0.121428,-0.321952 L 14.672619,0.36219512 C 14.672619,0.16097561 14.470238,0 14.267857,0 H 2.975 C 2.8535714,0 2.7321429,0.0402439 2.6511905,0.16097561 2.5702381,0.28170732 2.5702381,0.40243902 2.5702381,0.52317073 L 5.7678571,11.469512 H 0.425 c -0.16190476,0 -0.28333333,0.08049 -0.36428571,0.20122 -0.08095239,0.120731 -0.08095239,0.281707 0,0.402439 L 12.689286,32.476829 c 0.08095,0.120732 0.202381,0.20122 0.364285,0.20122 0.04048,0 0.08095,0 0.121429,-0.04024 0.161905,-0.08049 0.283333,-0.241464 0.242857,-0.442683 L 11.070238,17.586585 h 4.735714 c 0.121429,0 0.242857,-0.04024 0.32381,-0.120731 z M 10.625,16.781707 c -0.121429,0 -0.242857,0.04024 -0.323809,0.160976 -0.08095,0.08049 -0.121429,0.201219 -0.08095,0.321951 L 12.325,30.343902 1.1535714,12.27439 h 5.1809524 c 0.1214286,0 0.2428571,-0.04024 0.3238095,-0.160975 0.080952,-0.120732 0.080952,-0.241464 0.080952,-0.362196 L 3.5416667,0.80487805 H 13.863095 L 15.401191,16.781707 Z"
+         id="path10"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>

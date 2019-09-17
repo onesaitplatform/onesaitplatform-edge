@@ -1,0 +1,71 @@
+{
+    "process": "modbus",
+    "update": "2017-12-20T08:37:37.435Z",
+    "coreThreadPoolSize": 10,
+    "devices": [
+        {
+            "protocol": "TCP",
+            "id": "WLAB-01",
+            "ip": "192.168.1.3",
+            "port": 502,
+            "address": 1,
+            "manufacturer": "SACI",
+            "model": "AHM1-TCP",
+            "monitoringBlocks": 100,
+            "monitoringTimeSec": 10,
+            "monitoringDelayMs": 10,
+            "monitoringTimeoutSec": 2,
+            "info": "ANALIZADOR DE RED MODBUS EN EL LABORATORIO",
+            "signals": [
+                {
+                    "id": "E01.P01.A01.OT01.PVOL01",
+                    "businessId": "B-E01.P01.A01.OT01.PVOL01",
+                    "signalType": "PHASE1VOLTAGE",
+                    "unit": "V",
+                    "convFactor": 1.0,
+                    "description": "VOLTAJE FASE 1",
+                    "registerType": "HR",
+                    "register": 6,
+                    "dataType": "FLOAT32",
+                    "bigEndian": false
+                },
+                {
+                    "id": "E01.P01.A01.OT01.PVOL02",
+                    "businessId": "B-E01.P01.A01.OT01.PVOL02",
+                    "signalType": "PHASE2VOLTAGE",
+                    "unit": "V",
+                    "convFactor": 1.0,
+                    "description": "VOLTAJE FASE 2",
+                    "registerType": "HR",
+                    "register": 8,
+                    "dataType": "FLOAT32",
+                    "bigEndian": false
+                },
+                {
+                    "id": "E01.P01.A01.OT01.PVOL03",
+                    "businessId": "B-E01.P01.A01.OT01.PVOL03",
+                    "signalType": "PHASE3VOLTAGE",
+                    "unit": "V",
+                    "convFactor": 1.0,
+                    "description": "VOLTAJE FASE 3",
+                    "registerType": "HR",
+                    "register": 10,
+                    "dataType": "FLOAT32",
+                    "bigEndian": false
+                },
+                {
+                    "id": "E01.P01.A01.OT01.ACTE01",
+                    "businessId": "B-E01.P01.A01.OT01.ACTE01",
+                    "signalType": "ACTIVEENERGY",
+                    "unit": "kWh",
+                    "convFactor": 0.9,
+                    "description": "energía activa consumida",
+                    "registerType": "HR",
+                    "register": 66,
+                    "dataType": "FLOAT32",
+                    "bigEndian": false
+                }
+            ]
+        }
+    ]
+}
