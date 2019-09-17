@@ -1,0 +1,1 @@
+./modpoll  -m rtu -b 9600 -d 8 -p none -a 1 -t 1 -r 1 -c 8 /dev/ttyUSB0

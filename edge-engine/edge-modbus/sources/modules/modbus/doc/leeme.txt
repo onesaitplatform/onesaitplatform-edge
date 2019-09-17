@@ -1,0 +1,8 @@
+# Para crear clases JSON:
+1.- Ir a http://www.jsonschema2pojo.org/
+2.- Crear las clases a partir del fichero json generado 
+
+#Para desarrollar webapps en SpringBoot
+https://o7planning.org/en/11545/spring-boot-and-thymeleaf-tutorial
+https://www.javadevjournal.com/spring-boot/spring-boot-internationalization/
+https://progressive-code.com/post/14/Thymeleaf-Layout-Dialect-as-Decorator-Pattern-for-a-Spring-Boot-web-application
