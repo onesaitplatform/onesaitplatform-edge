@@ -1,0 +1,11 @@
+{
+	"login": {
+    "userId": 1,
+		"user": "admin",
+		"password": "admin",
+		"token": "123"
+  },
+  "password": {
+    "email": "test@test.es"
+  }
+}

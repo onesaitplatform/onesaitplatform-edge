@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="98"
+   height="93"
+   viewBox="0 0 98 93"
+   version="1.1"
+   id="svg22"
+   sodipodi:docname="sensor-contact.svg"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
+  <metadata
+     id="metadata28">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>new_contact_sensor</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs26" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1280"
+     inkscape:window-height="962"
+     id="namedview24"
+     showgrid="false"
+     inkscape:zoom="2.6222222"
+     inkscape:cx="45"
+     inkscape:cy="45"
+     inkscape:window-x="1358"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg22" />
+  <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title2">new_contact_sensor</title>
+  <desc
+     id="desc4">Created with Sketch.</desc>
+  <g
+     id="new_contact_sensor"
+     style="fill:none;fill-rule:evenodd;stroke:none;stroke-width:1"
+     transform="matrix(1.1250973,0,0,1.1250973,-0.91147895,-4.8195932)">
+    <g
+       id="noun_wave_127952-copy-6"
+       transform="translate(1,30)"
+       style="fill:#a5c0d3">
+      <g
+         id="noun_wave_127952-copy">
+        <g
+           id="Group-3"
+           transform="translate(72)">
+          <path
+             d="m 3.1656316,6.0696316 c -0.7244211,-0.7244211 -1.8978948,-0.7244211 -2.62231581,0 -0.72442105,0.724421 -0.72442105,1.8978947 0,2.6223158 3.61515791,3.6151576 3.61515791,9.4964206 0,13.1115786 -0.72442105,0.724421 -0.72442105,1.897895 0,2.622316 0.72442101,0.724421 1.89789471,0.724421 2.62231581,0 5.0608421,-5.060842 5.0608421,-13.295368 0,-18.3562104 z"
+             id="Path"
+             inkscape:connector-curvature="0" />
+          <path
+             d="m 8.6919474,0.54331579 c -0.7244211,-0.72442105 -1.8978948,-0.72442105 -2.6223158,0 -0.7244211,0.72442101 -0.7244211,1.89789471 0,2.62231581 6.5071584,6.5071579 6.5071584,17.0943154 0,23.6008424 -0.7244211,0.724421 -0.7244211,1.897894 0,2.622316 0.724421,0.72442 1.8978947,0.72442 2.6223158,0 7.9528426,-7.952843 7.9528426,-20.8926321 0,-28.84547421 z"
+             id="path7"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="Group"
+           transform="matrix(-1,0,0,1,15,0)">
+          <path
+             d="m 3.1656316,6.0696316 c -0.7244211,-0.7244211 -1.8978948,-0.7244211 -2.62231581,0 -0.72442105,0.724421 -0.72442105,1.8978947 0,2.6223158 3.61515791,3.6151576 3.61515791,9.4964206 0,13.1115786 -0.72442105,0.724421 -0.72442105,1.897895 0,2.622316 0.72442101,0.724421 1.89789471,0.724421 2.62231581,0 5.0608421,-5.060842 5.0608421,-13.295368 0,-18.3562104 z"
+             id="Path-Copy"
+             inkscape:connector-curvature="0" />
+          <path
+             d="m 8.6919474,0.54331579 c -0.7244211,-0.72442105 -1.8978948,-0.72442105 -2.6223158,0 -0.7244211,0.72442101 -0.7244211,1.89789471 0,2.62231581 6.5071584,6.5071579 6.5071584,17.0943154 0,23.6008424 -0.7244211,0.724421 -0.7244211,1.897894 0,2.622316 0.724421,0.72442 1.8978947,0.72442 2.6223158,0 7.9528426,-7.952843 7.9528426,-20.8926321 0,-28.84547421 z"
+             id="Path-Copy-2"
+             inkscape:connector-curvature="0" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="Group-2"
+       transform="translate(21,13)"
+       style="fill-rule:nonzero;stroke:#a5c0d3;stroke-width:3;stroke-linecap:round;stroke-linejoin:round">
+      <rect
+         id="Rectangle-Copy-6"
+         x="-1.5"
+         y="-1.5"
+         width="21"
+         height="68"
+         rx="4" />
+      <rect
+         id="Rectangle-Copy-7"
+         x="27.5"
+         y="-1.5"
+         width="21"
+         height="68"
+         rx="4" />
+      <rect
+         id="rect17"
+         x="27.5"
+         y="16.5"
+         width="8"
+         height="32"
+         rx="4" />
+      <rect
+         id="Rectangle-Copy-8"
+         x="11.5"
+         y="16.5"
+         width="8"
+         height="32"
+         rx="4" />
+    </g>
+  </g>
+</svg>
