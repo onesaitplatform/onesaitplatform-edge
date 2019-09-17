@@ -1,3 +1,0 @@
-influxdb: /usr/bin/influxd
-telegraf: /telegraf.sh
-chronograf: /usr/bin/chronograf --influxdb-url=http://127.0.0.1:8086
